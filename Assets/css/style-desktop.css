@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+header {
+  background-color: black;
+}
+
+header img {
+  width: 200px;
+  margin: 2em;
+}
+
+.Hero {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+  padding: 1.8em;
+  height: 65vh;
+}
+
+.Hero div {
+  width: 50%;
+  margin-inline: auto;
+  margin-block: 200px;
+}
+
+h1 {
+  font-family: "montserrat";
+  font-weight: 700;
+  line-height: 1;
+  color: #25a2c3;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+/* section {
+  text-align: center;
+  padding-block: 2em;
+  padding-inline: 1.8em;
+} */
+
+h2 {
+  font-family: "montserrat";
+  font-weight: 700;
+  color: #25a2c3;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.35em;
+  line-height: 1.65;
+  color: #393d41;
+}
+
+.Hero button {
+  border-radius: 5px;
+  border: none;
+  background-color: #f04c2f;
+  color: white;
+  padding-inline: 1.5em;
+  padding-block: 1em;
+  margin: 1em;
+  font-family: "montserrat";
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+div {
+  margin-block: 1em;
+}
+
+.contenitore {
+  margin-block: 1em;
+  margin-inline: 2em;
+}
+
+.contenitore img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.Mainblock {
+  width: 150vh;
+  margin-inline: auto;
+  margin-block: 6em;
+  text-align: center;
+}
+
+.Foto-main {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+
+.content-main {
+  width: 600px;
+  display: inline-block;
+}
+
+.content-main p {
+  padding: 0;
+}
+
+.Foto-main,
+.content-main {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  vertical-align: top;
+}
+
+.Garanzia {
+  text-align: center;
+  background-color: #e22d0e;
+  padding: 1.8em;
+}
+
+.Garanzia h1,
+figcaption,
+h4 {
+  color: white;
+}
+
+.Garanzia h1 {
+  font-size: 2.3em;
+  margin-top: 1em;
+}
+
+figcaption {
+  font-size: 1.15em;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 2em;
+}
+
+i {
+  font-style: italic;
+}
+
+h4 {
+  font-family: "montserrat";
+  font-size: 1.4em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.Correlati {
+  width: 145vh;
+  margin-block: 15vh;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.Articolo {
+  border-radius: 0px 0px 5px 5px;
+  background-color: white;
+  border: 1px solid rgb(163, 163, 163);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin: 1.5em;
+  vertical-align: top;
+}
+
+.Articolo img {
+  width: 100%;
+  margin-bottom: 1.7em;
+}
+
+.Articolo h2,
+p {
+  font-size: 1.35em;
+  padding-inline: 1.2em;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  padding-block: 2em;
+}
+
+footer h1,
+a {
+  color: white;
+}
+
+li {
+  margin-block: 0.6em;
+}
+
+footer li {
+  font-size: 1.35em;
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  width: 20%;
+  margin-block: 2.5em;
+}
